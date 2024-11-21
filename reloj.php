@@ -13,26 +13,29 @@
         font-weight: normal;
         font-style: normal;
     }
-            body {
+        body {
             font-family: 'Kbzipadeedoodah', sans-serif;
+            background-color: #87CEEB; /* Azul celeste */
+            padding: 100px;
         }
 
         #clock {
             font-size: 4rem;
             font-weight: bold;
+            color: #2c3e50; /* Azul oscuro para contraste */
         }
 
-        body, html {
-        background-color: lavender;
-        padding: 100px;
+        #texto {
+            color: #34495e; /* Gris oscuro para contraste */
         }
 
         footer {
-        text-align: center;
-        font-size: 15px;
-        margin-top: 100px;
+            text-align: center;
+            font-size: 15px;
+            margin-top: 100px;
+            color: #2c3e50; /* Azul oscuro para el texto del footer */
         }
-</style>
+    </style>
 
 <body>
 
