@@ -4,13 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reloj</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
+    <style>
+    @font-face {
+        font-family: 'Kbzipadeedoodah';
+        src: url('Kbzipadeedoodah-YG3j.ttf');
+        font-weight: normal;
+        font-style: normal;
+    }
+            body {
+            font-family: 'Kbzipadeedoodah', sans-serif;
+        }
+
+        #clock {
+            font-size: 4rem;
+            font-weight: bold;
+        }
+</style>
 <body>
 
-<div id="clock"><?php echo date('H:i:s'); ?></div>
-
+<center><h1 class="display-1">
+<div id="clock" font-family="Kbzipadeedoodah"><?php echo date('H:i:s'); ?></div>
+</h1><h1>
 <p id="texto">Texto</p>
-
+</center></h1>
 <script>
     function startClock() {
         const clock = document.getElementById('clock');
