@@ -21,6 +21,17 @@
             font-size: 4rem;
             font-weight: bold;
         }
+
+        body, html {
+        background-color: lavender;
+        padding: 100px;
+        }
+
+        footer {
+        text-align: center;
+        font-size: 15px;
+        margin-top: 100px;
+        }
 </style>
 <body>
 
@@ -57,4 +68,14 @@
 </script>
 
 </body>
+
+<footer>
+    <b>Página elaborada por: </b> <br>
+    Gabriel Vallarta <br>
+    Daniela Nuño <br>
+    Andrea Cota <br>
+    Luis Daniel Cárdenas <br>
+    Eric Morales <br>
+</footer>
+    
 </html>
